@@ -6,16 +6,8 @@ tags:
 - Unit Test
 - Ember
 ---
-### Ember Unit Test
 
-- Framework
-- Runner
-- Test helpers
-- Test Model
-- Test Component
-- Test Controller
-- Test Route
-
+Testing is a core part of the Ember framework and its development cycle.
 
 ### Test framework
 
@@ -74,6 +66,7 @@ Under `js_app/frontend/` folder:
    - `integration: true` or `unit: true` (default: `integration: true`)
    - `needs` specify any dependencies the tested module will require.
 
+<!--more-->
 ### Test Model
 [Ember Guide](http://guides.emberjs.com/v1.13.0/testing/testing-models/)
 

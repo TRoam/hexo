@@ -5,9 +5,13 @@ tags:
 - JavaScript
 - Web
 ---
-## JavaScript 一个比较有趣的面试题解析
-看到一个比较涉及知识面较广的一个面试题，在这里给大家分享一下
-
+## 前言
+看到一个比较涉及知识面较广的一个面试题，在这里给大家分享一下。
+所检测的都是JS中比较常见却很容易混淆的知识点，包括：
+- 变量作用域
+- 变量声明提升
+- `this`关键字
+- 运算符优先级
 
 ## 问题
 ``` javascript
@@ -29,6 +33,8 @@ new Foo.getName();
 new Foo().getName();
 new new Foo().getName();
 ```
+
+<!--more-->
 
 ## 答案
 ```javascript
@@ -106,6 +112,7 @@ function foo() {
     // x is still 1.
 }
 ```
+<!--more-->
 
 
 ## Declarations, Names, and Hoisting（声明、名称以及变量声明提升/声明时机提升）
