@@ -2,6 +2,7 @@
 title: 使用Hexo和github搭建个人博客
 date: 2016-03-25 13:20:42
 tags:
+  - hexo
 ---
 
 > 这篇文章详细描述了，如何使用hexo搭建个人静态博客。
@@ -168,46 +169,9 @@ $ hexo g
 $ hexo d
 ```
 
-  > 等待upload完成，就可以去远程看看啦，地址一般为： `username.github.io`
+等待upload完成，就可以去远程看看啦，地址一般为： `username.github.io`
 当然咯，先要确保你本地和你远程github已经连通，具体配置请参考[github官网](https://help.github.com/articles/set-up-git/).
 
-### 添加个性化域名
-
-1. 注册一个域名，可以选择去[Name.com](https://www.name.com/), 或者[中国万网](https://wanwang.aliyun.com/)
-2. 有了域名以后，添加域名DNS解析，解析成`CNAME`类型，保存等待15分钟左右，参考如下：
-{% asset_img cname.png %}
-<br />
-3. 回到本地博客文件夹,进入 `source/`文件夹，创建文件CNAME，并将你的域名直接写入CNAME中。
-```bash
-$ cd source
-$ touch CNAME
-```
-4. 重新部署：
-```bash
-$ hexo clean // 有时候，修改一些比如主题，配置等文件，需要先clean原有build
-$ hexo g
-$ hexo d
-```
-
-好了，可以去你的自定义域名看看效果咯。
-
-## 个性化主题
-
-Hexo 官网提供了大量社区开发的主题，可以直接安装，也可以自己参照文件编写，主要运用 JS HTML CSS 完成，这里就不详述了。
-
-
-## 常见问题
-
-### 内容不更新
-
-先clean，再部署
-
-```
-$ hexo clean
-```
-
-### 部署到远程没反应
-
-由于国内某些围墙的设置，`https`可能没法访问，所以，需要将 `_config.yml` 中deploy地址，改为 `http` 并使用 `ssh` 访问。
+> 更多Hexo进阶以及常见问题了解，请参考本博客[这篇文章](/2016/07/30/hexo进阶以及常见问题/)
 
 好了，目前就这么多了，有什么遗漏或者不对，请留言。
