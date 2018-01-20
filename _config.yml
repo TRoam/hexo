@@ -65,7 +65,7 @@ time_format: HH:mm:ss
 per_page: 8
 pagination_dir: page
 
-theme: roam-hexo-theme
+theme: next
 avatar: /images/avatar.jpg
 jiathis: true
 disqus_shortname: roamtang
