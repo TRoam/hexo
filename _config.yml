@@ -27,6 +27,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+    - demo/**
+    - readme.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -48,6 +50,8 @@ highlight:
 default_category: uncategorized
 category_map:
 tag_map:
+sitemap:
+   path: sitemap.xml
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -62,7 +66,7 @@ per_page: 8
 pagination_dir: page
 
 theme: next
-avatar: images/avatar.jpg
+avatar: /images/avatar.jpg
 jiathis: true
 disqus_shortname: roamtang
 
