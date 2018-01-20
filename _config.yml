@@ -26,7 +26,6 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -44,6 +43,9 @@ highlight:
   auto_detect: false
   tab_replace:
 
+skip_render:
+    - demo/**
+    - readme.md
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -61,10 +63,12 @@ time_format: HH:mm:ss
 per_page: 8
 pagination_dir: page
 
-theme: next
-avatar: images/avatar.jpg
+theme: roam
+avatar: /images/avatar.jpg
 jiathis: true
 disqus_shortname: roamtang
+sitemap:
+  path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
