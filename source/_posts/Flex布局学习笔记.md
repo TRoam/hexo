@@ -63,6 +63,7 @@ align-items
 align-content
 ```
 
+<!--more-->
 ### flex-direction
 
 决定主轴 元素的排列方向
