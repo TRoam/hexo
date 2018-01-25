@@ -51,6 +51,8 @@ brew-cask 是社区驱动的，如果你发现 brew-cask 上的应用不是最�
 几乎所有常用的应用都可以通过 brew-cask 安装，而且是从应用的官网上下载，所以你要安装新的应用时，建议用 brew-cask 安装。如果你不知道应用在 brew-cask 中的 ID，可以先用brew cask search命令搜索。
 
 
+<!--more-->
+
 ### Iterm2
 
 然后，就是将系统自带的terminal替换成使用更加方便，特性十足的Iterm2了，丰富的主题，漂亮的界面，让我毫不犹豫的抛弃了terminal。
