@@ -1,5 +1,5 @@
 ---
-title: How to Work with GitHub and Multiple Accounts[转]
+title: How to Work with GitHub and Multiple Accounts
 date: 2017-03-16 20:59:05
 tags:
 - github
