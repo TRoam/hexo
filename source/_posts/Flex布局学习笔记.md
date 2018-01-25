@@ -1,6 +1,6 @@
 ---
 title: Flex布局学习笔记
-date: 2017-04-09 15:51:56
+date: 2017-05-09 15:51:56
 tags:
 - Css
 - Web
@@ -246,3 +246,9 @@ flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 au
 ```
 
 该属性可能取6个值，除了auto，其他都与align-items属性完全一致.
+
+## 有趣的Flex游戏
+
+这个页面小游戏，一步步的让我们联系flex的使用，通关了，flex也就基本学会了。
+
+地址： http://flexboxfroggy.com
