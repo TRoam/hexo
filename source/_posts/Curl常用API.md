@@ -22,6 +22,7 @@ $ curl http://www.centos.org > centos-org.html
 100 27329    0 27329    0     0   104k      0 --:--:-- --:--:-- --:--:--  167k
 ```
 
+<!-- more -->
 ## Save the cURL Output to a file
 
 We can save the result of the curl command to a file by using -o/-O options.
@@ -50,7 +51,6 @@ $ curl -O http://www.gnu.org/software/gettext/manual/gettext.html
 
 > When curl has to write the data to the terminal, it disables the Progress Meter, to avoid confusion in printing. We can use ‘>’|’-o’|’-O’ options to move the result to a file.
 
-<!-- more -->
 ## Fetch Multiple Files at a time
 
 We can download multiple files in a single shot by specifying the URLs on the command line.

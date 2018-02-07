@@ -4,9 +4,9 @@
 
 # Site
 title: 小光头禅院
-subtitle: 一个想要成为技术大牛的小光头的禅悟。
-description: 一个想要成为技术大牛的小光头，记录生活，分享技术，分享人生。!
-author: Roam(唐莞峰)
+subtitle: 一个想要成为技术牛人想要美好生活的小光头的禅悟。
+description: 记录生活，记录思考，分享学习，分享人生!
+author: Roam Tang
 language: en #zh-Hans
 timezone:
 
@@ -62,13 +62,32 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 8
+per_page: 7
 pagination_dir: page
 
-theme: next
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
+theme: yilia
 avatar: /images/avatar.jpg
 jiathis: true
-disqus_shortname: roamtang
+# disqus_shortname: roamtang
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
