@@ -26,11 +26,11 @@ xcode-select --install
 
 方便的安装和管理我们需要的各种软件和工具，安装mac的包管理工具 `Homebrew`.官方称之为The missing package manager for OS X
 
+<!--more-->
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-<!--more-->
 具体情况请参见官网。
 
 有了 brew 以后，要下载工具，比如 MySQL、Gradle、Maven、Node.js 等工具，就不需要去网上下载了，只要一行命令就能搞定:

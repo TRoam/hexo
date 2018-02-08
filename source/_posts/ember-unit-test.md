@@ -24,6 +24,7 @@ Under `js_app/frontend/` folder:
 - `ember test --server`: run tests and e-run tests on every file-change
 - `ember server;  localhost:4200/test`: run tests on server
 
+<!--more-->
 ### Test helpers
 
 #### `moduleFor(fullName [, description [, callbacks]])`
@@ -66,7 +67,6 @@ Under `js_app/frontend/` folder:
    - `integration: true` or `unit: true` (default: `integration: true`)
    - `needs` specify any dependencies the tested module will require.
 
-<!--more-->
 ### Test Model
 [Ember Guide](http://guides.emberjs.com/v1.13.0/testing/testing-models/)
 

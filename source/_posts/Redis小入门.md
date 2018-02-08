@@ -28,7 +28,7 @@ tags:
   127.0.0.1:6379> get string 
   "hello"
   ```
-
+<!-- more -->
 * 哈希 - Hash
 
   Redis hash 是一个键值对集合。

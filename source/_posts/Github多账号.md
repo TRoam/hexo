@@ -21,6 +21,7 @@ Next, login to your second GitHub account, browse to "Account Overview," and att
 
 Next, because we saved our key with a unique name, we need to tell SSH about it. Within the Terminal, type: `ssh-add ~/.ssh/id_rsa_COMPANY`. If successful, you'll see a response of "Identity Added."
 
+<!-- more -->
 ## Step 3 - Create a Config File
 We've done the bulk of the workload; but now we need a way to specify when we wish to push to our personal account, and when we should instead push to our company account. To do so, let's create aconfig file.
 
@@ -39,7 +40,6 @@ Host github.com
   IdentityFile ~/.ssh/id_rsa
 ```
 
-<!-- more -->
 This is the default setup for pushing to our personal GitHub account. Notice that we're able to attach an identity file to the host. Let's add another one for the company account. Directly below the code above, add:
 
 ```

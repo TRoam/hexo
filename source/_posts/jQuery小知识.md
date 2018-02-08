@@ -36,6 +36,7 @@ $.preloadImages = function () {
 $.preloadImages('img/hover-on.png', 'img/hover-off.png');
 ```
 
+<!--more-->
 ## 检查图片是否加载完成
 有时候需要检查某个图片是否加载完成从而继续下面的操作：
 
