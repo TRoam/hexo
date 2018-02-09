@@ -55,7 +55,7 @@ Flex的核心概念就是`容器`和`轴`。容器包括外层的 父容器 和�
 
 容器上有六个属性
 
-```
+```css
 flex-direction
 flex-wrap
 flex-flow
@@ -68,7 +68,7 @@ align-content
 
 决定主轴 元素的排列方向
 
-```
+```css
 .container {
   flex-direction: row | row-reverse | column | column-reverse;
 }
@@ -84,7 +84,7 @@ align-content
 
 此属性是定义在元素一行排不下的时候的行为。
 
-```
+```css
 .container {
   flex-wrap: nowrap | wrap | wrap-reverse;
 }
@@ -99,7 +99,7 @@ align-content
 
 此属性是 `flex-direction` 和 `flex-wrap` 的简写形式，默认值是row nowrap
 
-```
+```css
 .container {
   flex-flow: <flex-direction> || <flex-wrap>;
 }
@@ -109,7 +109,7 @@ align-content
 
 定义了元素在主轴上的对齐方式
 
-```
+```css
 .container {
   justify-content: flex-start | flex-end | center | space-between | space-around;
 }
@@ -127,7 +127,7 @@ align-content
 
 定义了元素在交叉轴的对齐方式
 
-```
+```css
 .container {
   align-items: flex-start | flex-end | center | baseline | stretch;
 }
@@ -145,7 +145,7 @@ align-content
 
 定义了多跟轴线的对其方式
 
-```
+```css
 .container {
   align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 }
@@ -165,7 +165,7 @@ align-content
 
 元素上也有六个属性
 
-```
+```css
 order
 flex-grow
 flex-shrink
@@ -178,7 +178,7 @@ align-self
 
 属性定义项目的排列顺序。数值越小，排列越靠前，默认为0
 
-```
+```css
 .item {
   order: <integer>;
 }
@@ -188,7 +188,7 @@ align-self
 
 属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
 
-```
+```css
 .item {
   flex-grow: <number>; /* default 0 */
 }
@@ -200,7 +200,7 @@ align-self
 
 属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小
 
-```
+```css
 .item {
   flex-shrink: <number>; /* default 1 */
 }
@@ -213,7 +213,7 @@ align-self
 属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小.
 
 
-```
+```css
 .item {
   flex-basis: <length> | auto; /* default auto */
 }
@@ -225,7 +225,7 @@ align-self
 
 flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选
 
-```
+```css
 .item {
   flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
 }
@@ -239,7 +239,7 @@ flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 au
 
 属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch
 
-```
+```css
 .item {
   align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }

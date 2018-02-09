@@ -10,12 +10,12 @@ tags:
 
 The following command will get the content of the URL and display it in the STDOUT (i.e on your terminal).
 
-``
+```bash
 $ curl http://www.centos.org
-``
+```
 To store the output in a file, you an redirect it as shown below. This will also display some additional download statistics.
 
-```
+```bash
 $ curl http://www.centos.org > centos-org.html
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
