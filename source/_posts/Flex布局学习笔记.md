@@ -66,7 +66,7 @@ align-content
 
 ### flex-direction
 
-决定主轴 元素的排列方向
+决定主轴 元素的排列方向 
 
 ```css
 .container {
