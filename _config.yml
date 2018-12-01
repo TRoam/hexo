@@ -10,7 +10,6 @@ author: Roam Tang
 language: en #zh-Hans
 timezone:
 
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.tgf21.com
@@ -27,8 +26,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-    - demo/**
-    - readme.md
+  - demo/**
+  - readme.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -51,7 +50,7 @@ default_category: uncategorized
 category_map:
 tag_map:
 sitemap:
-   path: sitemap.xml
+  path: sitemap.xml
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -66,25 +65,25 @@ per_page: 7
 pagination_dir: page
 
 jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
-theme: yilia
+theme: hexo-theme-yilia
 avatar: /images/avatar.jpg
 jiathis: true
 # disqus_shortname: roamtang
