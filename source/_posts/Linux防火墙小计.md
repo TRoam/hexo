@@ -1,6 +1,6 @@
 ---
 title: Linux iptables 防火墙
-date: 2018-12-24 10:54:50
+date: 2018-11-24 10:54:50
 tags:
 - Linux
 - iptables
@@ -10,12 +10,13 @@ tags:
 最近把服务器更新成了阿里云的Centos， 于是倒腾了系列防火墙的东东 ~~
 
 Centos中默认的防火墙并不是iptables， 而是firewall，因此需要自己安装iptables服务。
-
+<!-- more  -->
 ### 禁用原有的`firewall`服务
 
 先查看`firewall`的状态
 
 > systemctl status firewalld
+
 
 如果是active的话，关闭再禁用服务
 
@@ -26,7 +27,6 @@ systemctl disable firewalld
 
 > yum install -y iptables-services
 
-<!-- more  -->
 启动服务
 > systemctl enable iptables
 systemctl start iptables 
