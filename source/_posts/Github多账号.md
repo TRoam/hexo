@@ -1,9 +1,10 @@
 ---
 title: How to Work with GitHub and Multiple Accounts
-date: 2017-03-16 20:59:05
 tags:
-- github
-- git
+  - github
+  - git
+abbrlink: 1952925e
+date: 2017-03-16 20:59:05
 ---
 
 ## Step 1 - Create a New SSH Key

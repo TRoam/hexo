@@ -1,8 +1,9 @@
 ---
 title: hexo进阶以及常见问题
+tags:
+  - hexo
+abbrlink: 951e94ad
 date: 2015-12-30 10:11:29
-tags: 
-- hexo
 ---
 
 

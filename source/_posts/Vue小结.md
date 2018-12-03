@@ -1,10 +1,11 @@
 ---
 title: Vue小结
-date: 2016-11-24 18:40:51
 tags:
-- JavaScript
-- Vue
-- 前端
+  - JavaScript
+  - Vue
+  - 前端
+abbrlink: fb918704
+date: 2016-11-24 18:40:51
 ---
 
 试着用Vue做了一个小东西，总结一下，很多都是官网有的，只是记录下了作为一个学习笔记吧。

@@ -1,11 +1,12 @@
 ---
 title: 让你的Vim支持ES6和React
-date: 2016-09-30 22:04:27
 tags:
   - Vim
   - React
   - ES6
   - Syntastic
+abbrlink: 26f2ab8a
+date: 2016-09-30 22:04:27
 ---
 
 开始进入到了全民ES6的时代了，React 也越来越火，作为码农神器的Vim怎么能掉队呢？

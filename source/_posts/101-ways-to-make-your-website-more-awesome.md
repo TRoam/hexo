@@ -1,10 +1,11 @@
 ---
-title: 让你网站变得更酷儿的101中方法[译]
-date: 2017-07-08 13:21:45
+title: '让你网站变得更酷儿的101中方法[译]'
 tags:
-- 前端
-- 优化
-- JavaScript
+  - 前端
+  - 优化
+  - JavaScript
+abbrlink: 36ce4f85
+date: 2017-07-08 13:21:45
 ---
 
 >* 原文链接 : [101 Ways to Make Your Website More Awesome](https://medium.freecodecamp.com/101-ways-to-make-your-website-more-awesome-79c934dd2a11#.enfq945da)

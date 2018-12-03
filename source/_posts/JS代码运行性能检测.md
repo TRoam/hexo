@@ -1,10 +1,11 @@
 ---
 title: JS代码运行性能检测
-date: 2017-01-28 14:59:31
 tags:
-- JavaScript
-- Performance
-- 性能
+  - JavaScript
+  - Performance
+  - 性能
+abbrlink: dc8fc4a0
+date: 2017-01-28 14:59:31
 ---
 
 有时候需要检测一段代码的性能，怎么做呢？ 借用chrome检测可以帮忙检测。

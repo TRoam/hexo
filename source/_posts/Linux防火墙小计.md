@@ -1,10 +1,11 @@
 ---
 title: Linux iptables 防火墙
-date: 2018-11-24 10:54:50
 tags:
-- Linux
-- iptables
-- 防火墙
+  - Linux
+  - iptables
+  - 防火墙
+abbrlink: 37a12b05
+date: 2018-11-24 10:54:50
 ---
 
 最近把服务器更新成了阿里云的Centos， 于是倒腾了系列防火墙的东东 ~~

@@ -1,9 +1,10 @@
 ---
 title: Curl常用命令
-date: 2017-04-19 13:43:37
 tags:
-- curl
-- linux
+  - curl
+  - linux
+abbrlink: 558ee8cc
+date: 2017-04-19 13:43:37
 ---
 
 ## Download a Single File

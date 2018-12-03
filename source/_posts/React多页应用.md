@@ -1,11 +1,12 @@
 ---
 title: React多页应用
-date: 2018-10-21 10:49:13
 tags:
   - JavaScript
   - React
   - 前端
   - webpack
+abbrlink: ef9db4a8
+date: 2018-10-21 10:49:13
 ---
 
 ### 前言

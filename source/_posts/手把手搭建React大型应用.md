@@ -1,6 +1,5 @@
 ---
 title: 'React:手把手搭建React大型应用'
-date: 2016-07-10T10:53:01.000Z
 tags:
   - JavaScript
   - React
@@ -17,6 +16,8 @@ tags:
   - NodeJs
   - PhantomJs
   - Font-Awesome
+abbrlink: 66849a10
+date: 2016-07-10 10:53:01
 ---
 
 # 前言

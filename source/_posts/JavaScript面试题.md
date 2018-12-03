@@ -1,9 +1,10 @@
 ---
 title: JavaScript面试题
-date: 2016-05-10 01:14:34
 tags:
-- JavaScript
-- Web
+  - JavaScript
+  - Web
+abbrlink: 3a213ca
+date: 2016-05-10 01:14:34
 ---
 ## 前言
 看到一个比较涉及知识面较广的一个面试题，在这里给大家分享一下。

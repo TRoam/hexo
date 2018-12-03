@@ -1,10 +1,11 @@
 ---
 title: ember-unit-test
-date: 2016-06-28 01:28:21
 tags:
-- JavaScript
-- Unit Test
-- Ember
+  - JavaScript
+  - Unit Test
+  - Ember
+abbrlink: c45a3bf6
+date: 2016-06-28 01:28:21
 ---
 
 Testing is a core part of the Ember framework and its development cycle.

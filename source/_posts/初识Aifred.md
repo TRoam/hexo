@@ -1,8 +1,9 @@
 ---
 title: 初识Aifred
-date: 2016-03-25 16:11:20
 tags:
-- tool
+  - tool
+abbrlink: 9a8eb8
+date: 2016-03-25 16:11:20
 ---
 
 第一次知道AIfred，就被它强大的能力深深的吸引了！

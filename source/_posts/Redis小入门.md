@@ -1,9 +1,10 @@
 ---
 title: Redis小入门
-date: 2016-08-21 14:19:13
 tags:
-- Redis
-- 数据库
+  - Redis
+  - 数据库
+abbrlink: c4bcd63f
+date: 2016-08-21 14:19:13
 ---
 
 两年前买了<redis 设计与实现>， 可是一直都没有拿起来研究，最近team使用Redis，才开始有所了解，捡回来重新看看。

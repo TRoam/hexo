@@ -1,10 +1,11 @@
 ---
 title: jQuery小知识
-date: 2016-04-22 18:16:19
 tags:
-- JavaScript
-- jQuery
-- tips
+  - JavaScript
+  - jQuery
+  - tips
+abbrlink: 83c07de9
+date: 2016-04-22 18:16:19
 ---
 
 

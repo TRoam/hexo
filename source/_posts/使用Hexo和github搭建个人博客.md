@@ -1,5 +1,6 @@
 ---
 title: 使用Hexo和github搭建个人博客
+abbrlink: fc33988f
 date: 2014-10-25 13:20:42
 tags:
 ---

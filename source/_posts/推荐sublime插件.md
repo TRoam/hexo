@@ -1,9 +1,10 @@
 ---
 title: 推荐sublime插件
-date: 2015-06-23T12:38:21.000Z
 tags:
-- Sublime
-- 编辑器
+  - Sublime
+  - 编辑器
+abbrlink: f487045f
+date: 2015-06-23 12:38:21
 ---
 
  作为一个码农，一款趁手的编辑器是必不可少的，最近开始使用了SublimeText了，的确是很好的。它用户界面十分整洁，功能非同凡响，性能快得出奇。这些非常棒的特性包括任意跳转（Goto Anything）、多重选择（multiple selections）、指令面板（command palette）、免打扰模式（distraction free mode）、分区编辑（split editing）、快速项目切换（instant project switch），你还可以随意地自定义更多功能，这边介绍一些常用插件！
