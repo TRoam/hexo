@@ -1,5 +1,5 @@
 ---
-title: Webpack优化系列 -- js&css模块分离
+title: Webpack优化系列(二) -- js&css模块分离
 abbrlink: 3af31a87
 date: 2018-10-27 10:53:40
 tags:
@@ -222,8 +222,27 @@ var sassLoader = extractCSS.extract(['css', 'sass'])
 plugins.push(extractCSS);
 ......
 //conf - module - loaders
-{test: /\.css$/, loader: cssLoader},
-{test: /\.scss$/, loader: sassLoader}
+
+module: {
+    rules: [
+      {
+        test: /\.css/,// 增加对 CSS 文件的支持
+        // 提取出 Chunk 中的 CSS 代码到单独的文件中
+        loader: ExtractTextPlugin.extract({
+          // 通过 minimize 选项压缩 CSS 代码
+          use: ['css-loader']
+        }),
+      },
+      {test: /\.scss$/, loader: sassLoader}
+    ]
+  },
+ plugins: [
+    // ...
+    new ExtractTextPlugin({
+      filename: `[name]_[contenthash:8].css`,// 给输出的 CSS 文件名称加上 Hash 值
+    })
+    /// ...
+  ]
 ```
 
 有写的不当之处，欢迎指正，谢谢~
