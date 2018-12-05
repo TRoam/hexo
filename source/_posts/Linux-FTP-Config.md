@@ -162,3 +162,26 @@ pasv_max_port=30999
 在配置文件中加入： 
 
 allow_writeable_chroot=YES
+
+```
+425 Failed to establish connection.
+```
+
+解决，检查配置
+
+```
+local_enable=YES
+write_enable=YES
+xferlog_enable=YES
+connect_from_port_20=YES
+xferlog_std_format=YES
+data_connection_timeout=120
+listen=NO
+pam_service_name=vsftpd
+userlist_enable=YES
+tcp_wrappers=YES
+```
+
+```
+iptables -I INPUT -p tcp --destination-port 10000:10001 -j ACCEPT
+```
