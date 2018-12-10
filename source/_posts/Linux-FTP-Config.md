@@ -151,11 +151,7 @@ pasv_max_port=30999
 
 ### tips
 
-提示错误： 
-
-```
-500 OOPS: vsftpd: refusing to run with writable root inside chroot()
-```
+> 500 OOPS: vsftpd: refusing to run with writable root inside chroot()
 
 解决方法： 
 
@@ -163,9 +159,7 @@ pasv_max_port=30999
 
 allow_writeable_chroot=YES
 
-```
-425 Failed to establish connection.
-```
+> 425 Failed to establish connection.
 
 解决，检查配置
 
@@ -184,4 +178,23 @@ tcp_wrappers=YES
 
 ```
 iptables -I INPUT -p tcp --destination-port 10000:10001 -j ACCEPT
+```
+
+> The data connection could not be established: ETIMEDOUT - Connection attempt timed out
+
+加入配置： 
+
+```
+pasv_enable=YES
+pasv_min_port=30000
+pasv_max_port=30999
+```
+
+> 用户名/密码 正确，并且其他配置没问题，仍然`530 Login incorrect`
+
+应该是`pam.d/vsftpd`里面的问题
+移除这一行
+
+```
+auth       required     pam_shells.so
 ```
