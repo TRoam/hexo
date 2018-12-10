@@ -1,5 +1,5 @@
 ---
-title: 基于GitHub webhook/nodejs的简单自动化部署架构
+title: 基于GitHub/Webhook的简单自动化部署架构
 tags:
   - deploy
   - linux
