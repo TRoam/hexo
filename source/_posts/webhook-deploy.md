@@ -122,28 +122,28 @@ node app.js
 
 #### 配置权限
 
-1. 创建web服务器用户目录,我使用的是`nginxUser`作为web访问用户，那么需要给这个用户添加相应的能够操作的权限。
+* 创建web服务器用户目录,我使用的是`nginxUser`作为web访问用户，那么需要给这个用户添加相应的能够操作的权限。
 
 ```
 sudo mkdir /home/www/.ssh
 sudo chown -R nginxUser /home/www/.ssh
 ```
 
-2. 配置GIT SSH 公钥和私钥
+* 配置GIT SSH 公钥和私钥
 
 ```
 ssh-keygen -t rsa -C "liulangdewoniu@gmail.com"
 ```
 
-3. 部署公钥
+* 部署公钥
 
 ```
 sudo -Hu nginxUser ssh-keygen -t rsa
 ```
 
-4. 配置公钥到GitHub服务器，具体配置流程就不在这里详细说明了，可以参考[官方文档](https://help.github.com/articles/connecting-to-github-with-ssh/)。
+* 配置公钥到GitHub服务器，具体配置流程就不在这里详细说明了，可以参考[官方文档](https://help.github.com/articles/connecting-to-github-with-ssh/)。
 
-5. 给用户配置git信息
+* 给用户配置git信息
 
 ```
 sudo -Hu nginxUser git config --global credential.helper store
