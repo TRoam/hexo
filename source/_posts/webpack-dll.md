@@ -1,5 +1,5 @@
 ---
-title: webpack-dll(五) --- DllPlugin处理外部依赖
+title: webpack优化系列(五) --- DllPlugin处理外部依赖
 abbrlink: 36cda913
 date: 2018-12-02 15:40:04
 tags:
