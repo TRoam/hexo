@@ -82,3 +82,10 @@ module: {
 ```
 
 至此，再看打包出来的文件，应该就达到预期了， 那么打包时间过长，每次开发都开始等的久了，并且每次打包hash都跟着变化，应该怎么优化呢?
+
+
+>* [Webpack优化系列(一) -- 性能分析可视化](/post/c3fa870e.html)
+* [Webpack优化系列(二) -- Js&css模块分离](/post/3af31a87.html)
+* [Webpack优化系列(三) --- 公共模块与业务模块隔离](/post/1092a999.html)
+* [Webpack优化系列(四) --- 减肥:压缩和混淆代码](/post/1092a999.html)
+* [Webpack-Dll(五) --- DllPlugin处理外部依赖](/post/36cda913.html)
