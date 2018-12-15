@@ -91,7 +91,6 @@ theme: hexo-theme-yilia
 avatar: /images/avatar.jpg
 jiathis: true
 # disqus_shortname: roamtang
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
