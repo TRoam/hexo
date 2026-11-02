@@ -5,3 +5,14 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+# Current manual site build and local-only material
+site-src/site/
+site-src/content/articles.json
+**/__pycache__/
+*.pyc
+private-backup/
+editorial-backup/
+.deploy*/
+.env
+.env.*

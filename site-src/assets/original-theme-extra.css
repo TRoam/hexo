@@ -1,0 +1,35 @@
+/* Only additions needed for the new technical articles; Yilia owns the layout. */
+.article-entry{overflow-wrap:anywhere;min-width:0}
+.article-entry .diagram{margin:28px 0;border:1px solid #ddd;background:#fafafa;padding:16px;box-sizing:border-box}
+.diagram-head{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:#666;margin-bottom:12px}
+.diagram-head a{font-size:12px;white-space:nowrap}
+.diagram-scroll{overflow-x:auto;max-width:100%}
+.article-entry .diagram img{display:block;width:100%;height:auto;margin:0 auto;border:0;box-shadow:none}
+.diagram figcaption{font-size:12px;color:#888;line-height:1.7;margin-top:10px}
+.article-entry .code-block{margin:20px 0;background:#f6f6f6;border:1px solid #ddd;max-width:100%;overflow:hidden}
+.code-block figcaption{padding:5px 12px;color:#999;font-size:12px;border-bottom:1px solid #ddd}
+.article-entry .code-block pre{margin:0;padding:14px 16px;overflow-x:auto;white-space:pre;background:transparent;border:0;line-height:1.65}
+.article-entry .code-block code{background:transparent;padding:0;font:13px/1.65 Menlo,Consolas,monospace;white-space:pre}
+.article-entry .references{border-top:1px solid #ddd;margin-top:38px;padding-top:12px;font-size:14px}
+.article-nav{display:flex;justify-content:space-between;gap:25px;margin:20px 30px 35px;line-height:1.7}
+.article-nav a{max-width:48%;color:#666}.article-nav small{display:block;font-size:12px;color:#999}
+@media(max-width:800px){.article-entry .diagram{padding:10px}.article-nav{margin:20px 10px}.article-entry .diagram img{min-width:540px}.article-header .article-title{overflow-wrap:anywhere}}
+.article-entry .table-scroll{overflow-x:auto;margin:22px 0}.article-entry .table-scroll table{min-width:540px;width:100%;border-collapse:collapse;font-size:14px}.article-entry .table-scroll th,.article-entry .table-scroll td{padding:10px 12px;border:1px solid #ddd;text-align:left;line-height:1.8}.article-entry .table-scroll th{background:#f5f5f5;font-weight:500}
+
+/* Explicit colors prevent the original theme's white pre/code text leaking onto light blocks. */
+.article-entry .code-block{background:#f5f7f9;border-color:#d8dfe5}
+.article-entry .code-block pre,.article-entry .code-block pre code{color:#263238;background:#f5f7f9;text-shadow:none;opacity:1}
+.article-entry .code-block figcaption{color:#536271;background:#eaf0f4;border-color:#d8dfe5}
+.article-entry :not(pre)>code{color:#263238;background:#edf1f4;text-shadow:none}
+.home-list-heading{margin:30px 30px 22px;color:#666}
+.home-list-heading h1{font-size:24px;font-weight:400;margin:0 0 8px}
+.home-list-heading p{font-size:14px;color:#888;margin:0}
+.home-more{margin:25px 30px 35px;display:flex;justify-content:space-between;font-size:14px}
+@media(max-width:800px){.home-list-heading{margin:20px 15px}.home-list-heading h1{font-size:22px}.home-more{margin:20px 15px 30px}}
+/* Keep the introduction and compact date/title rows; no summaries or topic panels. */
+.overview{margin:30px;color:#555;line-height:1.9}.overview h1,.overview h2{font-weight:400}
+.overview-intro{background:#fff;border-left:5px solid #4d4d4d;padding:34px 42px;margin-bottom:28px}
+.overview-intro h1{font-size:29px;line-height:1.7;margin:0 0 18px}.overview-intro p{font-size:15px;margin:15px 0}.overview-intro>a{font-size:14px}
+.overview-recent{background:#fff;padding:28px 36px}.overview-section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:14px}.overview-section-heading h2{font-size:22px;margin:0}.overview-section-heading>a{font-size:13px}
+.overview-recent ul{padding:0;margin:0;list-style:none}.overview-recent li{display:flex;align-items:baseline;gap:22px;padding:15px 0;border-top:1px solid #eee;font-size:15px}.overview-recent time{flex:0 0 65px;color:#999;font-size:13px}.overview-recent li>a{color:#555;overflow-wrap:anywhere}
+@media(max-width:800px){.overview{margin:15px 10px}.overview-intro{padding:23px 20px;margin-bottom:18px}.overview-intro h1{font-size:23px}.overview-intro br{display:none}.overview-intro p{font-size:14px}.overview-recent{padding:22px 20px}.overview-recent li{gap:12px;font-size:14px}.overview-recent time{flex-basis:58px;font-size:12px}}
